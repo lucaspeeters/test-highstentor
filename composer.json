@@ -1,0 +1,25 @@
+{
+    "name": "lpeeters/highstentor",
+    "description": "Package to translate your texts",
+    "authors": [
+        {
+            "name": "L Peeters",
+            "email": "lucas.peeters@highco.be"
+        }
+    ],
+    "minimum-stability": "dev",
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LPeeters\\HighStentor\\HighStentorServicesProvider"
+            ]
+        }
+    },
+
+    "autoload": {
+        "psr-4": {
+            "LPeeters\\HighStentor\\": "src"
+        }
+    }
+}
